@@ -20,7 +20,7 @@ body {
   font-size: 30px;
   font: bold;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1010px) {
   .cabecalho {
     display: none;
   }
