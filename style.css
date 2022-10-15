@@ -19,4 +19,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
   font: bold;
+}
+@media screen and (max-width: 640px) {
+  .cabecalho {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
