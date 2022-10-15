@@ -1,0 +1,33 @@
+$cordobody: #8FBCB3;
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $cordobody;
+    text-align: center;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.cabecalho {
+    background-color: white;
+    display: flex;
+    display: inline;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font: bold;
+
+    @media screen and (max-width:640px) {
+
+        display: none;
+
+    }
+}
+
+
+
