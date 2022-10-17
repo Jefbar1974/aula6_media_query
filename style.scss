@@ -7,10 +7,12 @@ $cordobody: #8FBCB3;
 }
 
 body {
+    display: flex;
     background-color: $cordobody;
     text-align: center;
     padding: 15px;
     margin-top: 15px;
+    justify-content: center;
 }
 
 .cabecalho {

@@ -5,10 +5,12 @@
 }
 
 body {
+  display: flex;
   background-color: #8FBCB3;
   text-align: center;
   padding: 15px;
   margin-top: 15px;
+  justify-content: center;
 }
 
 .cabecalho {
